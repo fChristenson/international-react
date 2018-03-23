@@ -66,7 +66,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/public/js/components/app/app.sv.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/public/js/components/app/app.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -354,18 +354,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst Header = __webpack_require__(/*! ../header */ \"./src/public/js/components/header/index.js\");\nconst Subheading = __webpack_require__(/*! ../subheading */ \"./src/public/js/components/subheading/index.js\");\n\nconst App = () => {\n  return React.createElement(\n    \"div\",\n    null,\n    React.createElement(Header, null),\n    React.createElement(Subheading, null)\n  );\n};\n\nmodule.exports = App;\n\n//# sourceURL=webpack:///./src/public/js/components/app/app.js?");
-
-/***/ }),
-
-/***/ "./src/public/js/components/app/app.sv.js":
-/*!************************************************!*\
-  !*** ./src/public/js/components/app/app.sv.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst ReactDOM = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\nconst App = __webpack_require__(/*! ./app */ \"./src/public/js/components/app/app.js\");\n\nReactDOM.render(React.createElement(App, null), document.getElementById(\"root\"));\n\n//# sourceURL=webpack:///./src/public/js/components/app/app.sv.js?");
+eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst ReactDOM = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\nconst Header = __webpack_require__(/*! ../header */ \"./src/public/js/components/header/index.js\");\nconst Subheading = __webpack_require__(/*! ../subheading */ \"./src/public/js/components/subheading/index.js\");\n\nconst App = () => {\n  return React.createElement(\n    \"div\",\n    null,\n    React.createElement(Header, null),\n    React.createElement(Subheading, null)\n  );\n};\n\nReactDOM.render(React.createElement(App, null), document.getElementById(\"root\"));\n\n//# sourceURL=webpack:///./src/public/js/components/app/app.js?");
 
 /***/ }),
 
