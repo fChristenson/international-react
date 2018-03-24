@@ -25,7 +25,7 @@ module.exports = {
   mode: "development",
   plugins: [
     new webpack.DefinePlugin({
-      "process.env.NODE_ENV": JSON.stringify(lang)
+      __LANGUAGE__: JSON.stringify(lang)
     })
   ]
 };

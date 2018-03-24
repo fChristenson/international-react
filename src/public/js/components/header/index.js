@@ -1,6 +1,6 @@
 let Component = () => null;
 
-if (process.env.NODE_ENV === "sv") {
+if (__LANGUAGE__ === "sv") {
   Component = require("./sv");
 } else {
   Component = require("./en");
