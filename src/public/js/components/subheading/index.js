@@ -1,14 +1,5 @@
-const React = require("react");
-const SubheadingEN = require("./en");
+let Component = () => null;
 
-const Component = (() => {
-  switch (process.env.NODE_ENV) {
-    case "en":
-      return SubheadingEN;
-
-    default:
-      return () => null;
-  }
-})();
+if (process.env.NODE_ENV === "en") Component = require(`./en`);
 
 module.exports = Component;

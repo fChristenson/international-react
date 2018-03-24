@@ -1,17 +1,9 @@
-const HeaderSV = require("./sv");
-const HeaderEN = require("./en");
+let Component = () => null;
 
-const Component = (() => {
-  switch (process.env.NODE_ENV) {
-    case "sv":
-      return HeaderSV;
-
-    case "en":
-      return HeaderEN;
-
-    default:
-      return HeaderEN;
-  }
-})();
+if (process.env.NODE_ENV === "sv") {
+  Component = require("./sv");
+} else {
+  Component = require("./en");
+}
 
 module.exports = Component;
