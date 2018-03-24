@@ -4,7 +4,7 @@
 
 * What do we need to consider when we have an app for many customers?
 * What happens when a customer asks for custom features?
-* What can we do to separate features from our builds?
+* What can we do to separate features from our customers?
 
 ## Notes
 
