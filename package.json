@@ -2,7 +2,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "name": "",
+  "name": "international-react",
   "version": "",
   "dependencies": {
     "babel-core": "^6.26.0",
