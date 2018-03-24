@@ -23,7 +23,7 @@ module.exports = langs.map(lang => {
         }
       ]
     },
-    mode: "development",
+    mode: "production",
     plugins: [
       new webpack.DefinePlugin({
         "process.env.NODE_ENV": JSON.stringify(lang)
