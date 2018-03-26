@@ -21,3 +21,20 @@ components so customers only get what they really need.
 
 It is also tricky to separate features so one customer can't use
 features for another customer.
+
+## Conclusion
+
+By doing this you can add custom components or copy paste and maintain
+multiple versions of the same component.
+
+You can also create common components that will be the same for every situation.
+
+All of this is possible without sending any extra code to the client,
+there is no cost to adding custom components apart from the cost of
+maintaining those components as far as I can see.
+
+This is `not production tested code` but it is built on idea´s I have
+built and/or worked with in production.
+
+This solution is not React specific and could be used for most projects
+that uses webpack.
